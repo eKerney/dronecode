@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.092349,
+          34.048092,
+          299.98
+        ]
+      },
+      "properties": {
+        "styleUrl": "#105",
+        "styleHash": "7ed43a14",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 0  -  UNITS: m</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-84.092349</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>34.048092</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>299.98</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>30.48</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>30.48</td></tr>"
+      },
+      "id": "104"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.092349,
+            34.048092,
+            299.98
+          ]
+        ]
+      },
+      "properties": {
+        "name": "waypointsTest0",
+        "styleUrl": "#110",
+        "styleHash": "426668e1",
+        "stroke": "#0070ff",
+        "stroke-opacity": 1,
+        "stroke-width": 3
+      },
+      "id": "109"
+    }
+  ]
+}

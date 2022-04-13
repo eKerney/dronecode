@@ -1,0 +1,149 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "INDEX": 0.0,
+                "CURRENT": 0.0,
+                "COORD_FRAME": 0.0,
+                "COMMAND": 16.0,
+                "PARAM1": 0.0,
+                "PARAM2": 0.0,
+                "PARAM3": 0.0,
+                "PARAM4": 0.0,
+                "PARAM5/X/LATITUDE": 34.048092,
+                "PARAM6/Y/LONGITUDE": -84.092349,
+                "PARAM7/Z/ALTITUDE": 30.48,
+                "AUTOCONTINUE": 1.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.092349,
+                    34.048092
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "INDEX": 2.0,
+                "CURRENT": 1.0,
+                "COORD_FRAME": 0.0,
+                "COMMAND": 16.0,
+                "PARAM1": 0.0,
+                "PARAM2": 0.0,
+                "PARAM3": 0.0,
+                "PARAM4": 0.0,
+                "PARAM5/X/LATITUDE": 34.045665,
+                "PARAM6/Y/LONGITUDE": -84.093778,
+                "PARAM7/Z/ALTITUDE": 30.48,
+                "AUTOCONTINUE": 1.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.093778,
+                    34.045665
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "INDEX": 3.0,
+                "CURRENT": 2.0,
+                "COORD_FRAME": 0.0,
+                "COMMAND": 16.0,
+                "PARAM1": 0.0,
+                "PARAM2": 0.0,
+                "PARAM3": 0.0,
+                "PARAM4": 0.0,
+                "PARAM5/X/LATITUDE": 34.044154,
+                "PARAM6/Y/LONGITUDE": -84.095687,
+                "PARAM7/Z/ALTITUDE": 30.48,
+                "AUTOCONTINUE": 1.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.095687,
+                    34.044154
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "INDEX": 4.0,
+                "CURRENT": 3.0,
+                "COORD_FRAME": 0.0,
+                "COMMAND": 16.0,
+                "PARAM1": 0.0,
+                "PARAM2": 0.0,
+                "PARAM3": 0.0,
+                "PARAM4": 0.0,
+                "PARAM5/X/LATITUDE": 34.043496,
+                "PARAM6/Y/LONGITUDE": -84.096431,
+                "PARAM7/Z/ALTITUDE": 30.48,
+                "AUTOCONTINUE": 1.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.096431,
+                    34.043496
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "INDEX": 5.0,
+                "CURRENT": 4.0,
+                "COORD_FRAME": 0.0,
+                "COMMAND": 16.0,
+                "PARAM1": 0.0,
+                "PARAM2": 0.0,
+                "PARAM3": 0.0,
+                "PARAM4": 0.0,
+                "PARAM5/X/LATITUDE": 34.044003,
+                "PARAM6/Y/LONGITUDE": -84.09745,
+                "PARAM7/Z/ALTITUDE": 30.48,
+                "AUTOCONTINUE": 1.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.09745,
+                    34.044003
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "INDEX": 6.0,
+                "CURRENT": 5.0,
+                "COORD_FRAME": 0.0,
+                "COMMAND": 16.0,
+                "PARAM1": 0.0,
+                "PARAM2": 0.0,
+                "PARAM3": 0.0,
+                "PARAM4": 0.0,
+                "PARAM5/X/LATITUDE": 34.044403,
+                "PARAM6/Y/LONGITUDE": -84.09907,
+                "PARAM7/Z/ALTITUDE": 30.48,
+                "AUTOCONTINUE": 1.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.09907,
+                    34.044403
+                ]
+            }
+        }
+    ]
+}
