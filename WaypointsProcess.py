@@ -202,9 +202,27 @@ class RouteToWaypoints:
                     return df
 
 class Waypoints:
-
+    '''Convert Waypoints and output file as GeoJSON 
+    '''    
     def __init__(self, filePath: str, outputName: str, columnFormat: list, columnNames: list, 
                  lonCol: str, latCol: str, zCol: str):
+        '''_summary_
+
+        :param filePath: _description_
+        :type filePath: str
+        :param outputName: _description_
+        :type outputName: str
+        :param columnFormat: _description_
+        :type columnFormat: list
+        :param columnNames: _description_
+        :type columnNames: list
+        :param lonCol: _description_
+        :type lonCol: str
+        :param latCol: _description_
+        :type latCol: str
+        :param zCol: _description_
+        :type zCol: str
+        '''                 
         self.colSpecs, self.colNames, self.filePath, self.outputName = columnFormat,columnNames,filePath,outputName 
         self.lon, self.lat, self.z = lonCol, latCol, zCol
         self.df = pd.read_fwf(self.filePath, skiprows=1, colspecs=self.colSpecs, names=self.colNames)
@@ -212,6 +230,8 @@ class Waypoints:
         print(f'Loaded: {filePath} as DataFrame')
 
     def dfToGeoJSON(self):
+        '''_summary_
+        '''        
         # example from https://notebook.community/captainsafia/nteract/applications/desktop/example-notebooks/pandas-to-geojson
         # empty python dictonary for GeoJSON
         self.geojson = {'type':'FeatureCollection', 'features':[]}
@@ -230,6 +250,8 @@ class Waypoints:
         print(f'Created GeoJSON dictonary from dataframe')
 
     def saveGeoJSON(self):
+        '''_summary_
+        '''        
         # serialize GeoJSON object
         self.json_object = json.dumps(self.geojson, indent = 4)
         # create file timestamp
