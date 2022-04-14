@@ -192,8 +192,8 @@ class RouteToWaypoints:
                         # add waypoints as dataframe records
                         # command=22 for aircraft takeoff - command=16 to proceed to next waypoint
                         command = 22 if i == 0 else 16
-                        df.loc[i+1] = [i, (i-1), 0, command, 0, 0, 0, 0, feat['geometry']['coordinates'][1],
-                                     feat['geometry']['coordinates'][0], feat["properties"]["altitude"], 1]
+                        df.loc[i+1] = [str(i), str((i-1)), str(0), command, 0, 0, 0, 0, round(feat['geometry']['coordinates'][1], 8),
+                                     round(feat['geometry']['coordinates'][0], 8), round(feat["properties"]["altitude"], 8), 1]
                     # command=21 for aircraft landing - insert at last waypoint
                     df.at[df.index[-1], 'COMMAND'] = 21
                     # save .waypoints file as tab separated text file
